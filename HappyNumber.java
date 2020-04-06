@@ -3,6 +3,11 @@ import java.util.Scanner;
 
 import static java.lang.System.*;
 
+/**
+ * Starting with any positive integer, replace the number by the sum of squares of its digits, and
+ * repeat the process until the number equals 1 in the end (happy number). Beware of infinite loop.
+ */
+
 public class HappyNumber {
 
     public static int sumOfSquaresOfNumberDigits(int number) {
